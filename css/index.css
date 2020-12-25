@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#title{
+    font-size: 35px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    letter-spacing: 10px;
+    font-family: Langar;
+    padding: 2px 0px;
+    margin: 0px;
+}
