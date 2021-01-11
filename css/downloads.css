@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+*{
+    cursor:default;
+}
+
+.down-wrap{
+    display: flex;
+    flex-flow: wrap;
+
+    width: 50%;
+
+    border: 1px solid #000000;
+    border-radius: 6px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0px;
+  }
+
+.down-title{
+    font-family: Roboto Condensed;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.down-para{
+    font-size: 26px;
+    font-family: Open Sans Condensed;
+
+    padding: 20px 0px;
+}
+
+.down-para code{
+    font-size: 20px;
+}
+
+.git-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.git-nav-btn{
+    font-family: Yanone Kaffeesatz;
+    font-size: 20px;
+    font-weight: bold;
+
+    margin: 20px 20px 10px 20px;
+    padding: 5px 20px;
+
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 8px;
+}
+
+.git-nav-btn a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.git-nav-btn:hover{
+    background-color: #ffffff;
+}
