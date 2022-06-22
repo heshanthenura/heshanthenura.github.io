@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #151515;
+}
+
+#title{
+    padding: 5px 0px;
+    font-family: 'Courier Prime', monospace;
+    color: #1aff00;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #1aff00;
+    font-size: 25px;
+}
