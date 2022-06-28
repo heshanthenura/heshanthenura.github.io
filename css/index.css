@@ -4,29 +4,32 @@
 }
 
 body{
-    background-color: #151515;
+    background-color: #F1F1F1;
 }
 
 #title{
     padding: 20px 0px;
     font-family: 'Courier Prime', monospace;
-    color: #1aff00;
-    text-align: center;
+    color: #000000;
+    text-align:center;
+    font-size: 50px;
 }
 
-#nav{
-    padding:10px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#nav li{
+    display: inline-block;
 }
 
 #nav a{
-    padding:0px 10px;
-}
-
-.link{
     text-decoration: none;
-    color: #1aff00;
-    font-size: 25px;
+    display: block;
+    color: #000000;
+    padding: 0px 10px;
+    font-size: 30px;
 }
