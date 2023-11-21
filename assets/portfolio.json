@@ -1,0 +1,104 @@
+{
+  "portfolio": [
+    {
+      "title": "FileShredder",
+      "tags": ["JavaFX"],
+      "description": "File shredder made using JavaFX",
+      "sourceLink": "https://github.com/heshanthenura/FileShredder",
+      "downloadLink": "link"
+    },
+    {
+      "title": "PassMan",
+      "tags": ["JavaFX"],
+      "description": "Password manager made using JavaFX.",
+      "sourceLink": "https://github.com/heshanthenura/PassMan",
+      "downloadLink": "link"
+    },
+    {
+      "title": "Mouse Wheel Shortcut - Prototype",
+      "tags": ["JavaFX", "JNativeHook"],
+      "description": "Mouse Wheel Shortcut is a simple prototype application that demonstrates a basic mouse wheel shortcut functionality with JavaFX and JNativeHook.",
+      "sourceLink": "https://github.com/heshanthenura/MouseWheelShortcut",
+      "downloadLink": "link"
+    },
+    {
+      "title": "Serial Port Monitor",
+      "tags": ["JavaFX"],
+      "description": "JavaFX application for monitoring data from a serial port.",
+      "sourceLink": "https://github.com/heshanthenura/SerialMonitor-JavaFX",
+      "downloadLink": "link"
+    },
+    {
+      "title": "SpringBoot Searching Demo",
+      "tags": ["SpringBoot", "WebSocket"],
+      "description": "Real-Time Search Demo with Spring Boot and WebSocket",
+      "sourceLink": "https://github.com/heshanthenura/SpringBoot-SearchingDemo",
+      "downloadLink": "link"
+    },
+    {
+      "title": "SpringBoot UserAuthentication",
+      "tags": ["SpringBoot", "Spring Security"],
+      "description": "Simple web app that demonstrates user authentication and account management using Spring Boot.",
+      "sourceLink": "https://github.com/heshanthenura/SpringBoot-UserAuthentication",
+      "downloadLink": "link"
+    },
+    {
+      "title": "Share Ware",
+      "tags": ["SpringBoot", "WebSocket"],
+      "description": "File sharing web app made using spring-boot",
+      "sourceLink": "https://github.com/heshanthenura/ShareWare",
+      "downloadLink": "link"
+    },
+    {
+      "title": "Video Call Web App",
+      "tags": ["SpringBoot", "WebSocket", "WebSocket"],
+      "description": "Video calling webapp made using spring-boot and WebRTC",
+      "sourceLink": "https://github.com/heshanthenura/WebRTC",
+      "downloadLink": "link"
+    },
+    {
+      "title": "File To Media (Java)",
+      "tags": ["Java"],
+      "description": "Experimental app that made using Java. Allow you to convert file into image",
+      "sourceLink": "https://github.com/heshanthenura/FileToMedia",
+      "downloadLink": "link"
+    },
+    {
+      "title": "ClipBoard Virus",
+      "tags": ["GO"],
+      "description": "Simple virus created with Golang for fun.",
+      "sourceLink": "https://github.com/heshanthenura/ClipBoardVirus",
+      "downloadLink": "link"
+    },
+    {
+      "title": "Command Line Chat App",
+      "tags": ["Java"],
+      "description": "Simple command line chat app made using Java and Socket.",
+      "sourceLink": "https://github.com/heshanthenura/CLIchat-SourceCode",
+      "downloadLink": "link"
+    },
+
+    {
+      "title": "Doppler Effect Calculator",
+      "tags": ["JavaFX"],
+      "description": "Doppler effect calculator made using JavaFx",
+      "sourceLink": "https://github.com/heshanthenura/DopplerEffect",
+      "downloadLink": "link"
+    },
+
+    {
+      "title": "Line Angle",
+      "tags": ["JavaFX"],
+      "description": "Rotate Line with An Angle to Horizontal. made using JavaFX",
+      "sourceLink": "https://github.com/heshanthenura/LineAngle",
+      "downloadLink": "link"
+    },
+    {
+      "title": "JavaFx login UI design",
+      "tags": ["JavaFX"],
+      "description": "Simple JavaFx login UI",
+      "sourceLink": "https://github.com/heshanthenura/LoginUI",
+      "downloadLink": "link"
+    }
+  ]
+}
