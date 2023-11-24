@@ -1,6 +1,13 @@
 {
   "portfolio": [
     {
+      "title": "JavaPackageDemo",
+      "tags": ["JavaFX"],
+      "description": "Demonstrating how to package and ship your JavaFX apps for clients",
+      "sourceLink": "https://github.com/heshanthenura/JavaPackageDemo",
+      "downloadLink": "https://github.com/heshanthenura/JavaPackageDemo/releases"
+    },
+    {
       "title": "FileShredder",
       "tags": ["JavaFX"],
       "description": "File shredder made using JavaFX",
@@ -12,7 +19,7 @@
       "tags": ["JavaFX"],
       "description": "Password manager made using JavaFX.",
       "sourceLink": "https://github.com/heshanthenura/PassMan",
-      "downloadLink": "link"
+      "downloadLink": "https://github.com/heshanthenura/PassMan/releases"
     },
     {
       "title": "Mouse Wheel Shortcut - Prototype",
