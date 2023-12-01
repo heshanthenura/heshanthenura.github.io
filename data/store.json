@@ -1,6 +1,18 @@
 {
   "store": [
     {
+      "title": "Desktop Companion",
+      "description": "Desktop Companion made with JavaFX",
+      "github": "https://github.com/heshanthenura/DesktopCompanion",
+      "windows": "https://github.com/heshanthenura/DesktopCompanion/releases/tag/v1.0",
+      "linux": "https://github.com/heshanthenura/JavaPackageDemo/releases/tag/linux-v1.0",
+      "mac": "https://download.link/mac",
+      "gi": true,
+      "wi": true,
+      "li": false,
+      "mi": false
+    },
+    {
       "title": "JavaPackageDemo",
       "description": "Demonstrating how to package and ship your JavaFX apps for clients",
       "github": "https://github.com/heshanthenura/JavaPackageDemo",

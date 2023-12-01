@@ -1,6 +1,13 @@
 {
   "portfolio": [
     {
+      "title": "Desktop Companion",
+      "tags": ["JavaFX"],
+      "description": "Desktop Companion made with JavaFX",
+      "sourceLink": "https://github.com/heshanthenura/DesktopCompanion",
+      "downloadLink": "https://github.com/heshanthenura/DesktopCompanion/releases"
+    },
+    {
       "title": "JavaPackageDemo",
       "tags": ["JavaFX"],
       "description": "Demonstrating how to package and ship your JavaFX apps for clients",
@@ -8,7 +15,7 @@
       "downloadLink": "https://github.com/heshanthenura/JavaPackageDemo/releases"
     },
     {
-      "title": "FileShredder",
+      "title": "File Shredder",
       "tags": ["JavaFX"],
       "description": "File shredder made using JavaFX",
       "sourceLink": "https://github.com/heshanthenura/FileShredder",
