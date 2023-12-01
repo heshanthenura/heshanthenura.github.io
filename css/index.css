@@ -1,0 +1,345 @@
+/* styles.css */
+
+/* Resetting default margin and padding */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+body::-webkit-scrollbar {
+  width: 0; /* Safari and Chrome */
+}
+
+/* To hide the scrollbar thumb (optional) */
+body::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Styling for the landing section */
+.landing-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+}
+
+.landing .intro {
+  font-size: 4.5rem;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.landing .summary {
+  margin: 0;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+/* Styling for the Store section */
+.store {
+  color: white;
+}
+
+.store h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.store p {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.store .store-btn {
+  border: none;
+  padding: 10px 5px;
+  font-size: 2rem;
+  background-color: rgb(255, 251, 0);
+  color: rgb(0, 0, 0);
+}
+
+/* Styling for the About Me section */
+.about-me {
+  color: white;
+  width: 100%;
+}
+
+.about-me h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.about-me .para-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.about-me .about-para {
+  width: 600px;
+  text-align: center;
+  margin: 0;
+}
+
+.about-me p {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/* Styling for the Skills section */
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* Styling for the Services section */
+.services {
+  color: white;
+}
+
+.services h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.services p {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/* Styling for the Portfolio section */
+.portfolio {
+  color: white;
+}
+
+.portfolio h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.portfolio .portfolio-wrap {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.store {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-me {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.skills {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.services {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.portfolio {
+  color: white;
+}
+
+.portfolio h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+}
+
+.portfolio .portfolio-wrap {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.portfolio-card {
+  border: solid 1px dimgrey;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.card-title {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card-tags {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-tag {
+  padding: 0 2px;
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.card-description {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-buttons button {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.card-buttons a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-download-btn {
+  background-color: #000000;
+  border: solid 1px white;
+}
+
+.card-download-btn a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-buttons a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid rgb(255, 255, 255); /* Adding a border for visibility */
+  padding: 5px 10px;
+}
+
+.card-buttons a:first-child {
+  background-color: white;
+}
+
+.card-buttons a:last-child {
+  background-color: #000000;
+  color: white;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 880px) {
+  .landing .intro {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .landing .summary {
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .about-me p {
+    font-size: 1.1rem;
+  }
+
+  .skills div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px; /* Add a small gap between each skill */
+  }
+
+  /* Update layout for services */
+  .services-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-wrap p {
+    margin-bottom: 10px; /* Add margin between service items */
+  }
+
+  .portfolio .portfolio-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .portfolio-card {
+    width: 100%;
+    max-width: 300px; /* Adjust the max-width as needed */
+    margin-bottom: 20px; /* Add margin to separate portfolio cards */
+  }
+
+  .card-description {
+    font-size: 1.2rem; /* Adjust the font size for the description */
+  }
+
+  .card-tags,
+  .card-tag {
+    font-size: 1rem; /* Adjust the font size for tags */
+  }
+}

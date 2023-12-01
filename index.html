@@ -1,15 +1,105 @@
 <!DOCTYPE html>
-<html lang="en" data-critters-container>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
     <title>Heshan Thenura</title>
-    <base href="/">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <style>@import"https://fonts.googleapis.com/css2?family=Roboto&display=swap";@import"https://fonts.googleapis.com/css2?family=Lato&display=swap";@import"https://fonts.googleapis.com/css2?family=Raleway&display=swap";html,body{padding:0;margin:0;background-color:#000;scrollbar-width:none;-ms-overflow-style:none}body::-webkit-scrollbar{display:none}</style><link rel="stylesheet" href="styles.01b3570d73e55966.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.01b3570d73e55966.css"></noscript></head>
+  </head>
   <body>
-    <app-root></app-root>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script src="runtime.ef6ebe1705ad86ea.js" type="module"></script><script src="polyfills.7811be3215a4ae4b.js" type="module"></script><script src="main.6bdf368cd2672079.js" type="module"></script></body>
+    <div class="nav-wrap">
+      <div class="navbar">
+        <div class="header-links">
+          <h1 class="header">Heshan Thenura</h1>
+          <h1 class="link"><a href="/">Home</a></h1>
+          <h1 class="link store-btn"><a href="/store.html">Store</a></h1>
+          <h1 class="link"><a href="#about">About</a></h1>
+          <h1 class="link"><a href="#services">Services</a></h1>
+          <h1 class="link"><a href="#portfolio">Portfolio</a></h1>
+          <h1 class="link"><a>Contact</a></h1>
+        </div>
+        <div class="menu-btn">
+          <button onclick="toggleMobileMenu()">MENU</button>
+        </div>
+      </div>
+      <div class="mobile-navbar" style="display: none">
+        <h1><a href="/">Home</a></h1>
+        <h1 class="store-btn-mobile"><a href="/store.html">Store</a></h1>
+        <h1><a href="#about">About</a></h1>
+        <h1><a href="#services">Services</a></h1>
+        <h1><a href="#portfolio">Portfolio</a></h1>
+        <h1><a>Contact</a></h1>
+      </div>
+    </div>
+    <div class="landing-wrap" id="landing">
+      <div class="landing">
+        <h1 class="intro">Hi, it's me Heshan</h1>
+        <h1 class="summary">
+          I am a proficient freelance Java, JavaFX, and Spring Boot programmer
+          based in Sri Lanka, specializing in creating dynamic and efficient
+          applications.
+        </h1>
+      </div>
+    </div>
+    <div class="store" id="store">
+      <h1>Store</h1>
+
+      <p>Go to store to download my app for free</p>
+      <p routerLink="/store"><button class="store-btn">Go To Store</button></p>
+    </div>
+    <div class="about-me" id="about">
+      <h1>About Me</h1>
+      <div class="para-div">
+        <p class="about-para">
+          I am Heshan, a self-taught programmer with a relentless passion for
+          tackling intricate challenges. My academic background spans pure
+          mathematics, applied mathematics, physics, and computer science,
+          providing me with a diverse toolkit for problem-solving.
+        </p>
+      </div>
+      <br />
+      <p>Download CV</p>
+      <div class="skills">
+        <h1>Skills</h1>
+        <div>
+          <p>Java</p>
+          <p>JavaFX</p>
+          <p>SpringBoot</p>
+          <p>Thymeleaf</p>
+          <p>Spring Security</p>
+          <p>Ionic</p>
+          <p>Angular</p>
+          <p>Typescript</p>
+          <p>MySQL</p>
+          <p>SQLite</p>
+          <p>H2</p>
+          <p>Github</p>
+          <p>Oracle Cloud</p>
+          <p>Linux</p>
+          <p>WebRTC</p>
+          <p>WebSockets</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="services" id="services">
+      <h1>Services</h1>
+      <div class="services-wrap">
+        <p>GUI Apps</p>
+        <p>Backend Development</p>
+        <p>Utility Scripts</p>
+        <p>Any Custom Apps</p>
+      </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+      <h1>Portfolio</h1>
+      <div class="portfolio-wrap" id="portfolioWrap"></div>
+    </div>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/navbar.js"></script>
+  </body>
 </html>
