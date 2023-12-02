@@ -1,5 +1,7 @@
 /* styles.css */
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 /* Resetting default margin and padding */
 html,
 body {
