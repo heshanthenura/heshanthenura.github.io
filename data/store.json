@@ -13,7 +13,7 @@
       "mi": false
     },
     {
-      "title": "JavaPackageDemo",
+      "title": "Java Package Demo",
       "description": "Demonstrating how to package and ship your JavaFX apps for clients",
       "github": "https://github.com/heshanthenura/JavaPackageDemo",
       "windows": "https://github.com/heshanthenura/JavaPackageDemo/releases/tag/v1.0",
@@ -25,7 +25,7 @@
       "mi": false
     },
     {
-      "title": "FileShredder",
+      "title": "File Shredder",
       "description": "File shredder made using JavaFX",
       "github": "https://github.com/heshanthenura/FileShredder",
       "windows": "https://download.link/windows",

@@ -1,45 +1,45 @@
-fetch("data/store.json")
-  .then((response) => response.json())
-  .then((data) => {
-    const storeContent = document.getElementById("storeContent");
+document.addEventListener("DOMContentLoaded", () => {
+  const storeCardsContainer = document.querySelector(".store-card-container");
 
-    // Check if 'store' property exists and it's an array
-    if (data && Array.isArray(data.store)) {
-      data.store.forEach((card) => {
-        const storeCard = document.createElement("div");
-        storeCard.classList.add("store-card");
+  fetch("/data/store.json")
+    .then((response) => response.json())
+    .then((data) => {
+      console.log("done");
+      data.store.forEach((item) => {
+        console.log(item.title);
 
-        storeCard.innerHTML = `
-          <h1 class="title">${card.title}</h1>
-          <p class="desc">${card.description}</p>
-          <div class="buttons">
+        const card = document.createElement("div");
+        card.classList.add("store-card");
+        card.innerHTML = `
+          <h1 class="card-title">${item.title}</h1>
+          <p class="description">${item.description}</p>
+          <div class="btns">
             ${
-              card.gi
-                ? `<a href="${card.github}" target="_blank"><ion-icon name="logo-github"></ion-icon></a>`
+              item.gi
+                ? `<a href="${item.github}"><ion-icon name="logo-github"></ion-icon></a>`
                 : ""
             }
             ${
-              card.wi
-                ? `<a href="${card.windows}" target="_blank"><ion-icon name="logo-windows"></ion-icon></a>`
+              item.wi
+                ? `<a href="${item.windows}"><ion-icon name="logo-windows"></ion-icon></a>`
                 : ""
             }
             ${
-              card.li
-                ? `<a href="${card.linux}" target="_blank"><ion-icon name="logo-tux"></ion-icon></a>`
+              item.li
+                ? `<a href="${item.linux}"><ion-icon name="logo-tux"></ion-icon></a>`
                 : ""
             }
             ${
-              card.mi
-                ? `<a href="${card.mac}" target="_blank"><ion-icon name="logo-apple"></ion-icon></a>`
+              item.mi
+                ? `<a href="${item.mac}"><ion-icon name="logo-apple"></ion-icon></a>`
                 : ""
             }
           </div>
         `;
-
-        storeContent.appendChild(storeCard);
+        storeCardsContainer.appendChild(card);
       });
-    } else {
-      console.error("Data is not an array:", data);
-    }
-  })
-  .catch((error) => console.error("Error fetching data:", error));
+    })
+    .catch((error) => {
+      console.error("Error fetching store.json:", error);
+    });
+});

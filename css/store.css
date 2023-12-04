@@ -1,7 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-/* Resetting default margin and padding */
+@import url("https://fonts.googleapis.com/css2?family=K2D&family=Koulen&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100px;
+}
 html,
 body {
   padding: 0;
@@ -10,74 +14,131 @@ body {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
 }
-
 body::-webkit-scrollbar {
   width: 0; /* Safari and Chrome */
 }
-
-/* To hide the scrollbar thumb (optional) */
 body::-webkit-scrollbar-thumb {
   display: none;
 }
-.store-page {
-  margin-top: 50px;
-}
-.intro {
+
+.store-wrap {
+  color: white;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.intro h1 {
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: center;
-  font-weight: 400;
-  width: 500px;
-}
-
-.store-content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.store-card {
-  color: white;
+.store {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.store-heading {
+  color: white;
+  font-size: 108px;
+  font-family: Koulen;
+  font-weight: 400;
+  line-height: 1;
+}
+.store-summary {
+  text-align: center;
+  color: white;
+  font-family: K2D;
+  width: 800px;
+  font-size: 30px;
+}
+.store-link {
+  text-decoration: none;
+  color: black;
+}
+.store-btn {
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: K2D;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  color: black;
+}
 
-  border: 1px solid white;
-  padding-bottom: 10px;
-}
-.title {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: center;
-}
-.desc {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: center;
-}
-.buttons {
+.store-card-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 100vw;
+  padding: 20px;
+}
+
+.store-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100vw;
+  gap: 30px;
+}
+
+.store-card {
+  background-color: white;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; /* Align content in a column */
+  justify-content: space-between; /* Space between the elements */
+}
+
+.card-title {
+  text-align: center;
+  font-family: Koulen;
+}
+.tags {
+  display: flex;
+  justify-content: start;
+  align-items: center;
   gap: 5px;
 }
-
-.buttons a {
-  text-decoration: none;
+.tag {
+  font-family: k2d;
   color: white;
+  background-color: #000000;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.description {
+  font-family: k2d;
+  text-align: center;
   font-size: 30px;
 }
-
-.buttons a ion-icon {
-  font-size: 30px;
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto; /* Push buttons to the bottom */
 }
-@media (max-width: 880px) {
-  .store-content {
+.btns a {
+}
+.btns a ion-icon {
+  color: black;
+  font-size: 40px;
+}
+@media screen and (max-width: 768px) {
+  .store-heading {
+    font-size: 50px;
+  }
+  .store-summary {
+    max-width: 350px;
+    font-size: 20px;
+  }
+  .store-card-container {
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
+    width: 100vw;
+    gap: 30px;
+  }
+  img {
+    width: 50px;
   }
 }

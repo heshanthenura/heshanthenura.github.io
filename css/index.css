@@ -1,8 +1,11 @@
-/* styles.css */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-/* Resetting default margin and padding */
+@import url("https://fonts.googleapis.com/css2?family=K2D&family=Koulen&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 200px;
+}
 html,
 body {
   padding: 0;
@@ -11,337 +14,204 @@ body {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
 }
-
 body::-webkit-scrollbar {
   width: 0; /* Safari and Chrome */
 }
-
-/* To hide the scrollbar thumb (optional) */
 body::-webkit-scrollbar-thumb {
   display: none;
 }
 
-/* Styling for the landing section */
 .landing-wrap {
+  height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  padding: 0;
-  margin: 0;
 }
-
 .landing {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 600px;
+  gap: 0;
 }
-
-.landing .intro {
-  font-size: 4.5rem;
-  margin: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.landing .summary {
-  margin: 0;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
-  font-weight: lighter;
-}
-
-/* Styling for the Store section */
-.store {
+.intro {
   color: white;
+  font-size: 108px;
+  font-family: Koulen;
+  font-weight: 400;
+  line-height: 1;
 }
-
-.store h1 {
+.summary {
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 3rem;
-  margin: 0;
-}
-
-.store p {
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
-  margin: 0;
-}
-
-.store .store-btn {
-  border: none;
-  padding: 10px 5px;
-  font-size: 2rem;
-  background-color: rgb(255, 251, 0);
-  color: rgb(0, 0, 0);
-}
-
-/* Styling for the About Me section */
-.about-me {
   color: white;
-  width: 100%;
+  font-family: K2D;
+  width: 800px;
+  font-size: 25px;
 }
 
-.about-me h1 {
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 3rem;
-  margin: 0;
-}
-
-.about-me .para-div {
+.store-wrap {
+  color: white;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
-
-.about-me .about-para {
-  width: 600px;
-  text-align: center;
-  margin: 0;
-}
-
-.about-me p {
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
-  margin: 0;
-}
-
-/* Styling for the Skills section */
-.skills {
+.store {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-
-.skills div {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
-
-/* Styling for the Services section */
-.services {
+.store-heading {
   color: white;
+  font-size: 108px;
+  font-family: Koulen;
+  font-weight: 400;
+  line-height: 1;
 }
-
-.services h1 {
+.store-summary {
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 3rem;
-  margin: 0;
-}
-
-.services p {
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
-  margin: 0;
-}
-
-/* Styling for the Portfolio section */
-.portfolio {
   color: white;
+  font-family: K2D;
+  width: 800px;
+  font-size: 30px;
 }
-
-.portfolio h1 {
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 3rem;
-  margin: 0;
-}
-
-.portfolio .portfolio-wrap {
-  padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.store {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.about-me {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.skills {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.services {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.portfolio {
-  color: white;
-}
-
-.portfolio h1 {
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 3rem;
-}
-
-.portfolio .portfolio-wrap {
-  padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.portfolio-card {
-  border: solid 1px dimgrey;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-.card-title {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.card-tags {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 5px;
-}
-
-.card-tag {
-  padding: 0 2px;
-  background-color: white;
+.store-link {
+  text-decoration: none;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  border-radius: 2px;
 }
-
-.card-description {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
-  text-align: center;
-}
-
-.card-buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.card-buttons button {
+.store-btn {
   border: none;
   background-color: white;
-  font-size: 20px;
-  padding: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: K2D;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #000000;
 }
 
-.card-buttons a {
-  text-decoration: none;
-  color: black;
-}
-
-.card-download-btn {
-  background-color: #000000;
-  border: solid 1px white;
-}
-
-.card-download-btn a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-.card-buttons {
+.about-wrap {
+  color: white;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  margin-top: 100px;
 }
-
-.card-buttons a {
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-heading {
+  color: white;
+  font-size: 108px;
+  font-family: Koulen;
+  font-weight: 400;
+  line-height: 1;
+}
+.about-summary {
+  text-align: center;
+  color: white;
+  font-family: K2D;
+  width: 800px;
+  font-size: 30px;
+}
+.cv-link {
   text-decoration: none;
   color: black;
-  border: 1px solid rgb(255, 255, 255); /* Adding a border for visibility */
-  padding: 5px 10px;
 }
-
-.card-buttons a:first-child {
+.cv-btn {
+  border: none;
   background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: K2D;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #000000;
 }
-
-.card-buttons a:last-child {
-  background-color: #000000;
+.social-btns {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+ion-icon {
   color: white;
+  font-size: 60px;
 }
 
-/* Media queries for smaller screens */
-@media (max-width: 880px) {
-  .landing .intro {
-    font-size: 3rem;
-    text-align: center;
-  }
+.service-wrap {
+  color: white;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.service-heading {
+  color: white;
+  font-size: 108px;
+  font-family: Koulen;
+  font-weight: 400;
+  line-height: 1;
+}
+.service-summary {
+  text-align: center;
+  color: white;
+  font-family: K2D;
+  width: 600px;
+  font-size: 20px;
+}
+.service {
+  font-family: K2D;
+  font-size: 30px;
+}
 
-  .landing .summary {
-    font-size: 1rem;
-    font-family: "Raleway", sans-serif;
+@media screen and (max-width: 768px) {
+  .intro {
+    font-size: 50px;
   }
-
-  .about-me p {
-    font-size: 1.1rem;
+  .summary {
+    max-width: 350px;
+    font-size: 20px;
   }
-
-  .skills div {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 5px; /* Add a small gap between each skill */
+  .store-heading {
+    font-size: 50px;
   }
-
-  /* Update layout for services */
-  .services-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .store-summary {
+    max-width: 350px;
+    font-size: 20px;
   }
-
-  .services-wrap p {
-    margin-bottom: 10px; /* Add margin between service items */
+  .about-heading {
+    font-size: 50px;
   }
-
-  .portfolio .portfolio-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
+  .about-summary {
+    max-width: 350px;
+    font-size: 20px;
   }
-
-  .portfolio-card {
-    width: 100%;
-    max-width: 300px; /* Adjust the max-width as needed */
-    margin-bottom: 20px; /* Add margin to separate portfolio cards */
+  ion-icon {
+    color: white;
+    font-size: 40px;
   }
-
-  .card-description {
-    font-size: 1.2rem; /* Adjust the font size for the description */
+  .service-heading {
+    font-size: 50px;
   }
-
-  .card-tags,
-  .card-tag {
-    font-size: 1rem; /* Adjust the font size for tags */
+  .service {
+    max-width: 350px;
+    font-size: 20px;
   }
 }
