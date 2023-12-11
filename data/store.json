@@ -1,7 +1,7 @@
 {
   "store": [
     {
-      "title": "StatCal",
+      "title": "Stat Cal",
       "description": "This repository hosts a JavaFX-based statistical calculator",
       "github": "https://github.com/heshanthenura/StatCal",
       "windows": "https://github.com/heshanthenura/StatCal/releases/tag/v1.0",
