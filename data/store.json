@@ -1,7 +1,7 @@
 {
   "store": [
     {
-      "title": "DynamicBackground",
+      "title": "Dynamic Background",
       "description": "TThis repository contains a JavaFX application that dynamically adjusts the background image to fit the screen dimensions.",
       "github": "https://github.com/heshanthenura/DynamicBackground",
       "windows": "https://github.com/heshanthenura/StatCal/releases/tag/v1.0",
@@ -10,7 +10,7 @@
       "gi": true,
       "wi": false,
       "li": false,
-      "mi": false
+      "mi": false 
     },
     {
       "title": "Stat Cal",
