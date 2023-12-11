@@ -1,6 +1,18 @@
 {
   "store": [
     {
+      "title": "StatCal",
+      "description": "This repository hosts a JavaFX-based statistical calculator",
+      "github": "https://github.com/heshanthenura/StatCal",
+      "windows": "https://github.com/heshanthenura/StatCal/releases/tag/v1.0",
+      "linux": "https://github.com/heshanthenura/StatCal/releases/tag/linux-v1.0",
+      "mac": "https://github.com/heshanthenura/StatCal/releases/tag/macOS-v1.0",
+      "gi": true,
+      "wi": true,
+      "li": true,
+      "mi": true
+    },
+    {
       "title": "Desktop Companion",
       "description": "Desktop Companion made with JavaFX",
       "github": "https://github.com/heshanthenura/DesktopCompanion",
