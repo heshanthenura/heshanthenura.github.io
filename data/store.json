@@ -1,8 +1,20 @@
 {
   "store": [
     {
+      "title": "Shipping Container Manager",
+      "description": "Comprehensive JavaFX-based application tailored for efficient shipping container management..",
+      "github": "https://github.com/heshanthenura/ShipCargoManager",
+      "windows": "https://github.com/heshanthenura/ShipCargoManager/releases/tag/win-v1.0",
+      "linux": "https://github.com/heshanthenura/ShipCargoManager/releases/tag/linux-v1.0",
+      "mac": "https://github.com/heshanthenura/ShipCargoManager/releases/tag/macOS-v1.0",
+      "gi": true,
+      "wi": true,
+      "li": true,
+      "mi": true 
+    },
+    {
       "title": "Dynamic Background",
-      "description": "TThis repository contains a JavaFX application that dynamically adjusts the background image to fit the screen dimensions.",
+      "description": "This repository contains a JavaFX application that dynamically adjusts the background image to fit the screen dimensions.",
       "github": "https://github.com/heshanthenura/DynamicBackground",
       "windows": "https://github.com/heshanthenura/StatCal/releases/tag/v1.0",
       "linux": "https://github.com/heshanthenura/StatCal/releases/tag/linux-v1.0",
