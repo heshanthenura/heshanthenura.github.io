@@ -9,8 +9,8 @@
       "mac": "https://github.com/heshanthenura/ShipCargoManager/releases/tag/macOS-v1.0",
       "gi": true,
       "wi": false,
-      "li": true,
-      "mi": true 
+      "li": false,
+      "mi": false 
     },
     {
       "title": "Shipping Container Manager",
