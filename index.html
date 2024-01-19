@@ -2,84 +2,85 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="icon" type="image/x-icon" href="logo.ico" />
     <title>Heshan Thenura</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" type="image/x-icon" href="assets/logo.ico" />
   </head>
   <body>
-    <div class="landing-wrap">
-      <div class="landing">
-        <img src="/logo.png" />
-        <h1 class="intro">HI, IT'S ME HESHAN</h1>
-        <p class="summary">
-          I am a proficient freelance Java, JavaFX, and Spring Boot programmer
-          based in Sri Lanka, specializing in creating dynamic and efficient
-          applications.I am a proficient freelance Java, JavaFX, and Spring Boot
-          programmer based in Sri Lanka, specializing in creating dynamic and
-          efficient applications.
-        </p>
-      </div>
-    </div>
-    <div class="store-wrap">
-      <div class="store">
-        <h1 class="store-heading">Store</h1>
-        <p class="store-summary">
-          Visit the store to download my free app and access the source code
-          here!
-        </p>
-        <a href="/store.html" class="store-link"
-          ><button class="store-btn">GO TO STORE</button></a
-        >
-      </div>
-    </div>
-    <div class="about-wrap">
-      <div class="about">
-        <h1 class="about-heading">ABOUT ME</h1>
-        <p class="about-summary">
-          I am Heshan, a self-taught programmer with a relentless passion for
-          tackling intricate challenges. My academic background spans pure
-          mathematics, applied mathematics, physics, and computer science,
-          providing me with a diverse toolkit for problem-solving.
-        </p>
-        <a
-          href="/data/CV-Heshan Thenura Kariyawasam.pdf"
-          class="cv-link"
-          download="CV-Heshan Thenura Kariyawasam.pdf"
-        >
-          <button class="cv-btn">DOWNLOAD CV</button>
-        </a>
-
-        <div class="social-btns">
-          <a href="https://github.com/heshanthenura" class="social-link"
-            ><ion-icon name="logo-github"></ion-icon
-          ></a>
-          <a href="https://www.linkedin.com/in/heshanthenura/"
-            ><ion-icon name="logo-linkedin"></ion-icon
-          ></a>
-          <a href="https://twitter.com/Heshantk"
-            ><ion-icon name="logo-twitter"></ion-icon
-          ></a>
-          <a href="https://www.instagram.com/heshan_thenura/"
-            ><ion-icon name="logo-instagram"></ion-icon
-          ></a>
-          <a href="https://www.youtube.com/@heshanthenura"
-            ><ion-icon name="logo-youtube"></ion-icon
-          ></a>
-          <a href="https://www.tiktok.com/@heshanthenura"
-            ><ion-icon name="logo-tiktok"></ion-icon
-          ></a>
+    <nav id="navigation">
+      <div id="nav-wrap">
+        <h1 id="heading">Heshan</h1>
+        <div id="links">
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="store.html">Store</a>
         </div>
       </div>
+    </nav>
+
+    <div id="intro">
+      <img src="assets/logo.png" alt="my-logo" />
+      <h1>HI, IT'S ME HESHAN</h1>
+      <p>
+        I excel in <strong>Java</strong>, with specialized skills in
+        <strong>JavaFX</strong> and <strong>Spring Boot</strong>. My proficiency
+        in these technologies allows me to create <strong>efficient</strong> and
+        <strong>visually engaging</strong> applications seamlessly.
+      </p>
     </div>
-    <div class="service-wrap">
-      <div class="service">
-        <h1 class="service-heading">SERVICES</h1>
-        <p class="service">GUI App Development</p>
-        <p class="service">Backend Development</p>
-        <p class="service">Utility Scripts Development</p>
-        <p class="service">Any Custom App Development</p>
+
+    <div id="others">
+      <p>go to store to download my apps</p>
+      <a href="store.html"><button>STORE</button></a>
+      <p>checkout portfolio to see my work</p>
+      <a href="portfolio.html"><button>PORTFOLIO</button></a>
+      <a
+        href="assets/CV-Heshan Thenura Kariyawasam.pdf"
+        download="CV-Heshan Thenura Kariyawasam.pdf"
+      >
+        <button style="margin-top: 10px">DOWNLOAD CV</button>
+      </a>
+    </div>
+
+    <div id="services">
+      <h1>Services</h1>
+      <p class="services-description">
+        I specialize in crafting Java, JavaFX, and Spring Boot applications. My
+        preference is towards developing intricate and advanced software,
+        particularly for enterprise and science-related projects.
+      </p>
+      <p class="item">I make Java apps</p>
+      <p class="item">I make JavaFX apps</p>
+      <p class="item">I make SpringBoot backends</p>
+    </div>
+
+    <div id="contact">
+      <h1>Contact</h1>
+      <p class="contact-description">
+        I am accessible across various platforms for communication. Feel free to
+        reach out to me through any of these channels. Looking forward to
+        connecting with you!
+      </p>
+      <div>
+        <a href="https://github.com/heshanthenura" class="social-link"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="https://www.linkedin.com/in/heshanthenura/"
+          ><ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+        <a href="https://twitter.com/Heshantk"
+          ><ion-icon name="logo-twitter"></ion-icon
+        ></a>
+        <a href="https://www.instagram.com/heshan_thenura/"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+        <a href="https://www.youtube.com/@heshanthenura"
+          ><ion-icon name="logo-youtube"></ion-icon
+        ></a>
+        <a href="https://www.tiktok.com/@heshanthenura"
+          ><ion-icon name="logo-tiktok"></ion-icon
+        ></a>
       </div>
     </div>
 
@@ -91,5 +92,6 @@
       nomodule=""
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

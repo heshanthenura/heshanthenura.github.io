@@ -2,40 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/store.css" />
-    <link rel="icon" type="image/x-icon" href="logo.ico" />
     <title>Heshan Thenura</title>
+    <link rel="stylesheet" href="css/store.css" />
+    <link rel="icon" type="image/x-icon" href="assets/logo.ico" />
   </head>
   <body>
-    <div class="store-wrap">
-      <div class="store">
-        <div
-          style="
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-          "
-        >
-          <img src="/logo.png" />
-          <h1 class="store-heading">Store</h1>
+    <nav id="navigation">
+      <div id="nav-wrap">
+        <h1 id="heading">Heshan</h1>
+        <div id="links">
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="store.html">Store</a>
         </div>
-
-        <p class="store-summary">
-          Explore the comprehensive range of my open-source apps, all freely
-          available for download
-        </p>
-        <a href="/index.html" class="store-link"
-          ><button class="store-btn">GO TO HOME</button></a
-        >
       </div>
-    </div>
-    <div class="store-card-wrap">
-      <div class="store-card-container"></div>
-    </div>
-    <script src="js/store.js"></script>
+    </nav>
+    <div id="intro">Download my apps from here</div>
+
+    <!-- Container to hold the dynamically created store cards -->
+    <div class="store-card-container"></div>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -44,5 +30,6 @@
       nomodule=""
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="js/store.js"></script>
   </body>
 </html>

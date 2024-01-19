@@ -1,217 +1,148 @@
-@import url("https://fonts.googleapis.com/css2?family=K2D&family=Koulen&display=swap");
 * {
   padding: 0;
   margin: 0;
 }
-img {
-  width: 200px;
-}
-html,
-body {
-  padding: 0;
-  margin: 0;
-  background-color: #000000;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-}
-body::-webkit-scrollbar {
-  width: 0; /* Safari and Chrome */
-}
-body::-webkit-scrollbar-thumb {
-  display: none;
+#navigation {
+  position: fixed; /* Change from absolute to fixed */
+  width: 100vw;
+  background-color: #ffffff;
+  color: #000000;
+  top: -50px; /* Move the navigation off-screen initially */
+  transition: top 0.3s; /* Add smooth transition for better visual effect */
 }
 
-.landing-wrap {
-  height: 100vh;
-  width: 100vw;
+#navigation.scrolled {
+  top: 0;
+}
+
+#nav-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 15px;
 }
-.landing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 0;
-}
-.intro {
-  color: white;
-  font-size: 108px;
-  font-family: Koulen;
-  font-weight: 400;
-  line-height: 1;
-}
-.summary {
-  text-align: center;
-  color: white;
-  font-family: K2D;
-  width: 800px;
+#heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
   font-size: 25px;
-}
-
-.store-wrap {
-  color: white;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.store {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.store-heading {
-  color: white;
-  font-size: 108px;
-  font-family: Koulen;
-  font-weight: 400;
-  line-height: 1;
-}
-.store-summary {
-  text-align: center;
-  color: white;
-  font-family: K2D;
-  width: 800px;
-  font-size: 30px;
-}
-.store-link {
-  text-decoration: none;
-  color: black;
-}
-.store-btn {
-  border: none;
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-  font-family: K2D;
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: 10px;
   color: #000000;
 }
-
-.about-wrap {
-  color: white;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-}
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.about-heading {
-  color: white;
-  font-size: 108px;
-  font-family: Koulen;
-  font-weight: 400;
-  line-height: 1;
-}
-.about-summary {
-  text-align: center;
-  color: white;
-  font-family: K2D;
-  width: 800px;
-  font-size: 30px;
-}
-.cv-link {
-  text-decoration: none;
-  color: black;
-}
-.cv-btn {
-  border: none;
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-  font-family: K2D;
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: 10px;
-  color: #000000;
-}
-.social-btns {
-  margin-top: 20px;
+#links {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-ion-icon {
-  color: white;
-  font-size: 60px;
-}
-
-.service-wrap {
-  color: white;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-}
-.service {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.service-heading {
-  color: white;
-  font-size: 108px;
-  font-family: Koulen;
-  font-weight: 400;
-  line-height: 1;
-}
-.service-summary {
-  text-align: center;
-  color: white;
-  font-family: K2D;
-  width: 600px;
+#links a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-.service {
-  font-family: K2D;
-  font-size: 30px;
+/* intro */
+#intro {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+#intro img {
+  width: 5%;
+}
+#intro h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#intro p {
+  text-align: justify;
+  width: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* others */
+#others {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+#others button {
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+}
+#others p {
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+/* services */
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-description {
+  width: 500px;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.item {
+  padding: 5px 0;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#services h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* contact */
+#contact {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.contact-description {
+  width: 500px;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+}
+
+#contact ion-icon {
+  color: #000000;
+  font-size: 50px;
+}
 @media screen and (max-width: 768px) {
-  .intro {
-    font-size: 50px;
+  #intro img {
+    width: 40%;
   }
-  .summary {
-    max-width: 350px;
-    font-size: 20px;
+
+  #intro p {
+    width: 90vw;
+    font-size: 15px;
   }
-  .store-heading {
-    font-size: 50px;
+
+  .services-description {
+    width: 90vw;
+    font-size: 15px;
   }
-  .store-summary {
-    max-width: 350px;
-    font-size: 20px;
-  }
-  .about-heading {
-    font-size: 50px;
-  }
-  .about-summary {
-    max-width: 350px;
-    font-size: 20px;
-  }
-  ion-icon {
-    color: white;
-    font-size: 40px;
-  }
-  .service-heading {
-    font-size: 50px;
-  }
-  .service {
-    max-width: 350px;
-    font-size: 20px;
+  .contact-description {
+    width: 90vw;
+    font-size: 15px;
   }
 }
