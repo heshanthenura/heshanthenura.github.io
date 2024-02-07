@@ -1,6 +1,18 @@
 {
     "store": [
       {
+        "title": "The Maze Game",
+        "description": "A simple Maze Game made using JavaFX (unfinished)",
+        "github": "https://github.com/heshanthenura/The-Maze-Game",
+        "windows": "https://github.com/heshanthenura/ShipCargoManager/releases/tag/win-v1.0",
+        "linux": "https://github.com/heshanthenura/ShipCargoManager/releases/tag/linux-v1.0",
+        "mac": "https://github.com/heshanthenura/ShipCargoManager/releases/tag/macOS-v1.0",
+        "gi": true,
+        "wi": false,
+        "li": false,
+        "mi": false 
+      },
+      {
         "title": "Ball Simulation",
         "description": "Simple Ball Simulation made using JavaFX (unfinished)",
         "github": "https://github.com/heshanthenura/BallSimulation",
